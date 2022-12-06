@@ -1,7 +1,7 @@
 #Ask the user to input a month (1 to 12).
 #Display the season of the month received:
 
-month = input(Enter the month between Jan-Dec (1-12))
+month = input("Enter the month between Jan-Dec (1-12)")
 
 if month in ('December', 'January', 'February', 12, 1, 2):
 	season = 'Winter'
