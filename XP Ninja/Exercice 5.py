@@ -1,6 +1,6 @@
 caractere = input("\t\tEntrer your longest sentence (We prefer sentence without A) : \n")
 
-while true:
+while True:
 	if "A" in caractere :
 		caractere = input("\t\tEntrer your longest sentence (We prefer sentence without A) : \n")
 	else:
